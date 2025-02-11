@@ -5,6 +5,7 @@ var sideBar = document.getElementById("menu-toggle-icon");
 var hiddenMenu = document.getElementById("sidebar-wrapper");
 var overlay = document.getElementById("overlay");
 
+
 sideBar.onclick = function(){
   hiddenMenu.style.display = "block";
 }
