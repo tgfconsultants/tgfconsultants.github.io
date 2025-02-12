@@ -11,7 +11,7 @@ body {
     padding-left: 20px;
   }
   #logo img{
-    max-height: 170px;
+    max-height: 70px;
   }
   a{
     text-decoration: none;
@@ -254,11 +254,7 @@ body {
     background-color: #e2ded9;
   }
 
-  #product-display-section{
-    height: 100vh;
-  }
-
-  #testimonials-section {
+    #testimonials-section {
     width: 100%;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -545,4 +541,66 @@ footer {
       #address-wrapper > div:last-of-type {
         width: 75%;
       }
+}
+
+main{
+  padding: 20px 0;
+  /* height: 200vh; */
+}
+
+.product-detail {
+  display: flex;
+  gap: 20px;
+  /* height: 300vh; */
+}
+
+/*  */
+
+.product-image{
+  width: 50%;
+}
+.product-image > img{
+  width: 30vw;
+}
+
+.product-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.functionalities ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.functionalities ul li {
+  margin-bottom: 10px;
+}
+
+.long-description, .applications {
+  margin-top: 15px;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .product-detail {
+    flex-direction: column;
+    gap: 15px;
+  }
+  main{
+    padding: 50px 0;
+    /* height: 400vh; */
+  }
+  .product-image{
+    width: 100%;
+  }
+  .product-image > img{
+    width: 60vw;
+  }
 }
